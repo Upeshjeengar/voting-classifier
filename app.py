@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 from sthelper import StHelper
 import data_helper
 
+st.sidebar.markdown("**By Upesh Jeengar**")  
+st.sidebar.markdown("**GitHub: [Upesh Jeengar](https://github.com/upeshjeengar/)**")  
+
 # import all datasets
 concentric,linear,outlier,spiral,ushape,xor = data_helper.load_dataset()
 
